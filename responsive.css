@@ -1,9 +1,1 @@
-@media (max-width  <   425px) {
 
-  .hero {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-}
