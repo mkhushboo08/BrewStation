@@ -37,36 +37,61 @@
     </section>
 
     <section class="service" id="service">
-      <h2>Our Service</h2>
+      <h2>Our Services</h2>
       <div class="cards">
-        <div class="card">
-          <img src="./asset/coffee-and-tea.jpg" alt="Coffee and tea products" loading="lazy" />
-          <h3>Coffee and tea</h3>
-          <button type="button" class="arrow">
-            <i class="fa-solid fa-angle-right"></i>
-          </button>
+        <!-- Booklet Animation for Services -->
+        <div class="service-card">
+          <div class="cover">
+            <img src="./asset/coffee-and-tea.jpg" alt="Coffee and tea" loading="lazy" />
+            <h3>Coffee and tea</h3>
+          </div>
+          <div class="inside">
+            <p>
+              Discover freshly roasted coffee beans, premium teas, and handcrafted blends that deliver rich flavors and
+              exceptional quality in every cup.
+            </p>
+          </div>
         </div>
-        <div class="card">
-          <img src="./asset/brewers-equipment.jpg" alt="Coffee brewing equipment" loading="lazy" />
-          <h3>Brewers equipment</h3>
-          <button type="button" class="arrow">
-            <i class="fa-solid fa-angle-right"></i>
-          </button>
+
+        <div class="service-card">
+          <div class="cover">
+            <img src="./asset/brewers-equipment.jpg" alt="Brewers equipment" loading="lazy" />
+            <h3>Brewers equipment</h3>
+          </div>
+          <div class="inside">
+            <p>
+              Explore reliable brewing equipment designed to help cafés and businesses create consistently perfect
+              coffee with ease.
+            </p>
+          </div>
         </div>
-        <div class="card">
-          <img src="./asset/paper-janitorial.jpg" alt="Paper cups and janitorial supplies" loading="lazy" />
-          <h3>Paper, janitorial</h3>
-          <button type="button" class="arrow">
-            <i class="fa-solid fa-angle-right"></i>
-          </button>
+
+        <div class="service-card">
+          <div class="cover">
+            <img src="./asset/paper-janitorial.jpg" alt="Paper and janitorial supplies" loading="lazy" />
+            <h3>Paper, janitorial</h3>
+          </div>
+          <div class="inside">
+            <p>
+              Stock up on essential paper products, cleaning supplies, and hygiene solutions to keep your café clean,
+              organized, and welcoming.
+            </p>
+          </div>
         </div>
-        <div class="card">
-          <img src="./asset/food-and-beverages.jpg" alt="Food and beverage products" loading="lazy" />
-          <h3>Food & beverages</h3>
-          <button type="button" class="arrow">
-            <i class="fa-solid fa-angle-right"></i>
-          </button>
+
+        <div class="service-card">
+          <div class="cover">
+            <img src="./asset/food-and-beverages.jpg" alt="Food and beverages" loading="lazy" />
+            <h3>Food & beverages</h3>
+          </div>
+          <div class="inside">
+            <p>
+              From refreshing drinks to delicious café essentials, we offer quality food and beverage products to
+              complement every coffee experience.
+            </p>
+          </div>
         </div>
+
       </div>
     </section>
 
@@ -171,24 +196,6 @@
             <button type="submit">Submit Now</button>
           </form>
         </div>
-
-        <div class="social-links">
-          <a href="#" aria-label="Facebook">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-
-          <a href="#" aria-label="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-
-          <a href="#" aria-label="Twitter">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-
-          <a href="#" aria-label="Youtube">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-        </div>
       </div>
     </section>
 
@@ -229,9 +236,9 @@
         <a href="#contact">Contact</a>
       </div>
 
-      <div>
+      <div class="contact-address">
         <h2>Contact</h2>
-        <address class="contact-address">
+        <address>
           <p>
             2168 Andrea Lane<br>
             Fort Myers, FL 33912
@@ -246,11 +253,7 @@
         <h2>Subscribe Newsletter</h2>
         <form action="#">
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, officia?</p>
-          <input 
-          id="newsletter-email" 
-          type="email" 
-          placeholder="Enter Your Email" 
-          required />
+          <input id="newsletter-email" type="email" placeholder="Enter Your Email" required />
           <button type="submit">Subscribe</button>
         </form>
       </div>
@@ -259,6 +262,12 @@
       <p>© 2026 Bean & Brew. All Rights Reserved.</p>
     </div>
   </footer>
+
+
+  <script src="./script.js"></script>
+
+
 </body>
+
 
 </html>
